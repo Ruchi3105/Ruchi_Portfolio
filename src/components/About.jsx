@@ -3,7 +3,7 @@ import ReviewOnScroll from "./ReviewOnScroll";
 
 const About = () => {
   const frontendSkills = ["React", "Bootstrap", "EJS", "Tailwind CSS"];
-  const backendSkills = ["Node.js", "Express.js", "Python", "AI-ML"];
+  const backendSkills = ["Node.js", "Express.js", "Python", "AI-ML", "Flask", "MongoDB"];
 
   return (
     <section
@@ -78,7 +78,7 @@ const About = () => {
 
   <div>
     <h4 className="font-semibold">Python & ML Intern – IGDTUW (Jun 2023 - Jul 2023)</h4>
-    <p>Completed 7-week training on Python and Machine Learning.</p>
+    <p>Completed 8-week training on Python and Machine Learning.</p>
     <p>Built 10+ ML models using various algorithms and tools.</p>
   </div>
 </div>
