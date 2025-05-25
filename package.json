@@ -7,11 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
-  "homepage": "https://ruchi3105.github.io/Ruchi_Portfolio",
   "dependencies": {
     "@tailwindcss/vite": "^4.1.4",
     "emailjs-com": "^3.2.0",
