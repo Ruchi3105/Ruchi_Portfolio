@@ -14,7 +14,7 @@ const Projects = () => {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] active:-translate-y-1 active:border-blue-500/30 active:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">IGDTUW LMS</h3>
               <p className="text-gray-400 mb-4">
                 Browser extension to highlight, save, and manage notes from any
@@ -25,7 +25,7 @@ const Projects = () => {
                 {["MongoDB", "Express", "React", "Node.js"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm active:bg-blue-500/20 active:shadow-[0_2px_8px_rgba(59,130,246,0.1)] hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
                   >
                     {tech}
                   </span>
@@ -37,14 +37,14 @@ const Projects = () => {
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 active:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition active:border-blue-500/30 active:-translate-y-1 active:shadow-[0_2px_8px_rgba(59,130,246,0.2)]">
               <h3 className="text-xl font-bold mb-2">NeruaBlog</h3>
               <p className="text-gray-400 mb-4">
                 A full-stack blogging platform with user authentication, post
@@ -56,7 +56,7 @@ const Projects = () => {
                   (tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] active:bg-blue-500/20 active:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
                     >
                       {tech}
                     </span>
@@ -69,14 +69,14 @@ const Projects = () => {
                   href="https://blog-app-frontend-jhla.onrender.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 active:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] active:border-blue-500/30 active:-translate-y-1 active:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">
                 SnapNote – Chrome Extension
               </h3>
@@ -89,7 +89,7 @@ const Projects = () => {
                 {["HTML", "CSS", "JavaScript", "Node.js"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] active:bg-blue-500/20 active:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
                   >
                     {tech}
                   </span>
@@ -101,14 +101,14 @@ const Projects = () => {
                   href="https://github.com/Ruchi3105/SnapNote"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 active:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] active:-translate-y-1 active:border-blue-500/30 active:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">Text Summarizer</h3>
               <p className="text-gray-400 mb-4">
                 Built an NLP-based tool that condenses long-form text into
@@ -120,7 +120,7 @@ const Projects = () => {
                 {["HTML", "CSS", "JavaScript", "Flask"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] active:bg-blue-500/20 active:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
                   >
                     {tech}
                   </span>
@@ -132,14 +132,14 @@ const Projects = () => {
                   href="https://github.com/Ruchi3105/Text-Summarizer"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 active:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] active:-translate-y-1 active:border-blue-500/30 active:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">CleanCoder</h3>
               <p className="text-gray-400 mb-4">
                 AI-powered system that reviews code across multiple languages,
@@ -151,7 +151,7 @@ const Projects = () => {
                   (tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] active:bg-blue-500/20 active:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
                     >
                       {tech}
                     </span>
@@ -164,14 +164,14 @@ const Projects = () => {
                   href="https://cleancoder-frontend.onrender.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 active:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
               </div>
             </div>
 
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] active:-translate-y-1 active:border-blue-500/30 active:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">CryptoLens</h3>
               <p className="text-gray-400 mb-4">
                 Developed a user-friendly cryptocurrency tracking website using
@@ -183,7 +183,7 @@ const Projects = () => {
                 {["React", "Bootstrap", "CoinGecko API"].map((tech, key) => (
                   <span
                     key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] active:bg-blue-500/20 active:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
                   >
                     {tech}
                   </span>
@@ -195,7 +195,7 @@ const Projects = () => {
                   href="https://github.com/Ruchi3105/CryptoLens"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 active:text-blue-300 transition-colors my-4"
                 >
                   View Project →
                 </a>
