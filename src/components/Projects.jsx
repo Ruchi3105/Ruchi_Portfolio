@@ -17,8 +17,7 @@ const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] active:-translate-y-1 active:border-blue-500/30 active:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <h3 className="text-xl font-bold mb-2">IGDTUW LMS</h3>
               <p className="text-gray-400 mb-4">
-                Browser extension to highlight, save, and manage notes from any
-                webpage with persistent storage and easy editing features.
+                A full-stack web application designed to streamline academic workflows at IGDTUW. It features role-based access for administrators, faculty, and students, enabling efficient subject management, faculty assignments, and distribution of course materials. Built using MERN Stack, the system facilitates organized access to educational resources across departments and semesters.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4">
@@ -34,7 +33,7 @@ const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="#"
+                  href="https://igms.onrender.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-400 hover:text-blue-300 active:text-blue-300 transition-colors my-4"
@@ -47,8 +46,7 @@ const Projects = () => {
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition active:border-blue-500/30 active:-translate-y-1 active:shadow-[0_2px_8px_rgba(59,130,246,0.2)]">
               <h3 className="text-xl font-bold mb-2">NeruaBlog</h3>
               <p className="text-gray-400 mb-4">
-                A full-stack blogging platform with user authentication, post
-                management, and a clean, responsive UI built using MERN stack.
+                NeruaBlog is a full-stack blogging application built using the MERN stack. It allows users to register, log in, update or delete profiles, and create, edit, or delete blog posts. Features include category-based filtering, post search, and a responsive, user-friendly React interface. The project showcases complete CRUD operations, secure authentication, and effective content management.
               </p>
 
               <div className="flex flex-wrap gap-2 mb-4">
