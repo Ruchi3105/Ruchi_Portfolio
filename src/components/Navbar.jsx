@@ -46,7 +46,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => {
             </a>
 
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1W0XHh86Mr_s8d0VKq9VxCOfTgRMJlFf0/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-300 hover:text-white transition-colors"
